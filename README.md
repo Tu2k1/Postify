@@ -37,7 +37,11 @@ php artisan key:generate
 ```
 php artisan migrate
 ```
-7. Serve the application:
+7. Run the tailwind so the styles of the website shows:
+```
+npm run dev
+```
+8. Open another terminal and serve the application:
 ```
 php artisan serve
 ```
