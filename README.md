@@ -27,17 +27,17 @@ cd Postify
 composer install
 ```
 
-5. Create a copy of the `.env.example` file and rename it to `.env`. Update the `.env` file with your database configuration.
+4. Create a copy of the `.env.example` file and rename it to `.env`. Update the `.env` file with your database configuration.
 
-6. Generate an application key:
+5. Generate an application key:
 ```
 php artisan key:generate
 ```
-7. Run the database migrations to create the necessary tables:
+6. Run the database migrations to create the necessary tables:
 ```
 php artisan migrate
 ```
-8. Serve the application:
+7. Serve the application:
 ```
 php artisan serve
 ```
